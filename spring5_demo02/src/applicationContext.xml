@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean id="order" class="com.ssgspring5.spring5.bean.Order" init-method="initMethod" destroy-method="destroyMethod">-->
+<!--        <property name="oname" value="电风扇"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="post" class="com.ssgspring5.spring5.bean.MyBeanPost"></bean>-->
+
+<!--实现自动装配
+    bean标签属性autowire，配置自动装配
+    autowire属性常用两个值：
+        byName根据属性名称注入 ，注入值bean的id值和类属性名称一样
+        byType根据属性类型注入
+-->
+    <bean id="emp" class="com.ssgspring5.spring5.bean.Emp" autowire="byName">
+<!--        <property name="dept" ref="dept"/>-->
+    </bean>
+    <bean id="dept" class="com.ssgspring5.spring5.bean.Dept" autowire="byName">
+
+    </bean>
+
+</beans>
