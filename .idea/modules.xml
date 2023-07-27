@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SGGSpring5.iml" filepath="$PROJECT_DIR$/SGGSpring5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sping5_demo01/sping5_demo01.iml" filepath="$PROJECT_DIR$/sping5_demo01/sping5_demo01.iml" />
     </modules>
   </component>
 </project>
